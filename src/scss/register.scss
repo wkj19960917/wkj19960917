@@ -1,0 +1,337 @@
+html body{
+    background: url(https://safestatic.games.wanmei.com/passport/reg/images/animate-bg.jpg) #ffffff center top no-repeat;
+    font: normal 14px/22px "Microsoft Yahei";
+    color: #666;
+    min-width: 1002px;
+}
+.topbar-register{
+    width: 818px;
+    margin: 0 auto 40px;
+    padding: 30px 0 0;
+    position: relative;
+    z-index: 10;
+    line-height: 35px;
+    color: #FFF;
+    .cl {
+        *zoom: 1;
+        height: auto;
+    }
+    a {
+        color: #FFF;
+    }
+    .logo img {
+        vertical-align: middle;
+        max-height: 35px;
+    }
+}
+// 注册页面中部
+.as_register {
+    position: relative;
+    z-index: 10;
+    width: 818px;
+    height: auto;
+    padding: 60px 0;
+    background: #ffffff;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    margin: 0 auto 56px;
+    .as_wrap {
+        width: 396px;
+        background: #ffffff;
+        padding-top: 0;
+        margin: 0 auto;
+    }
+    .lan_tab,.logo {
+        display: none;
+        margin: 0 auto;
+        height: 81px;
+        cursor: default;
+    }
+    .logo {
+        width: 212px;
+        background: url(https://safestatic.games.wanmei.com/passport/reg/images/rlogo.png) no-repeat center;
+    }
+    .tit {
+        color: #333333;
+        line-height: 36px;
+        font-size: 34px;
+        text-shadow: none;
+        margin: 0 0 10px;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+    .vicetit {
+        color: #999999;
+        line-height: 18px;
+        margin: 0 0 34px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .func_tab {
+        margin: 0 auto 30px;
+        .cur {
+            background-color: #d72020;
+            color: #FFF;
+            i {
+                background: url(../images/rarr_b.png) no-repeat 50% 100%;
+                position: absolute;
+                bottom: -5px;
+                left: 50%;
+                margin-left: -6px;
+                width: 11px;
+                height: 5px;
+            }
+        }
+        a {
+            font-size: 16px;
+            position: relative;
+            float: left;
+            width: 50%;
+            height: 46px;
+            line-height: 46px;
+            text-align: center;
+            background-color: #e4e4e4;
+            color: #666666;
+        }
+    }
+    .ibox {
+        border: 1px solid #5a5a5a;
+        background: rgba(255,255,255,0.3);
+        position: relative;
+        padding: 0 24px 0 10px;
+        height: 35px;
+        line-height: 35px;
+        input{
+            font-size: 14px;
+            font-family: "Microsoft Yahei";
+            width: 100%;
+            padding: 7px 0;
+            vertical-align: top;
+            line-height: normal;
+            background: none;
+        }
+        input,.pwshow {
+            color: #666666;
+        }
+        i {
+            background: url(https://safestatic.games.wanmei.com/passport/reg/images/rico_delete1.png) no-repeat right center;
+            display: none;
+            position: absolute;
+            right: 8px;
+            top: 50%;
+            margin-top: -8px;
+            width: 16px;
+            height: 16px;
+            cursor: pointer;
+        }
+        .ihint {
+            left: 402px;
+            position: absolute;
+            width: 190px;
+            top: 9px;
+            font-size: 12px;
+            line-height: 16px;
+            font-family: "Arial", "Simsun";
+            padding-left: 17px;
+        }
+        .ihint_error {
+            color: #ff5959;
+            background: url(https://safestatic.games.wanmei.com/passport/reg/images/rico_error.png) no-repeat left 2px;
+        }
+        .pwshow {
+            color: #bbb;
+            font-size: 14px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            display: block;
+            cursor: text;
+        }
+        .pwhide {
+            display: none;
+        }
+        .ihint_pass {
+            color: #a4e941;
+            background: url(https://safestatic.games.wanmei.com/passport/reg/images/rico_pass.png) no-repeat left 2px;
+        }
+    }
+    .ibox, .ibox.onfocus {
+        border-color: #dbdbdb;
+    }
+    .mb17 {
+        margin-bottom: 17px;
+    }
+
+    .ibox_eye i {
+        background: url(https://safestatic.games.wanmei.com/passport/reg/images/rico_hide1.png) no-repeat right center;
+    }
+    .pwlevel {
+        overflow: hidden;
+        margin: 4px 0;
+        height: 16px;
+        ul {
+            /* display: none; */
+            margin-left: -3px;
+        }
+        li {
+            float: left;
+            width: 33.3%;
+        }
+        .l.cur span {
+            background-color: #ff5a59;
+        }
+        .m.cur span {
+            background-color: #ffa820;
+        }
+        .h.cur span {
+            background-color: #6cbd57;
+        }
+        span {
+            color: #fff;
+            background-color: #bcbcbc;
+            margin-left: 3px;
+            display: block;
+            height: 16px;
+            line-height: 15px;
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+    .clear {
+        height: auto;
+    }
+    .vboxl {
+        width: 252px;
+        margin-right: 6px;
+    }
+    .vboxr {
+        width: 138px;
+        a {
+            background: #f7f7f7;
+            border: 1px solid #dedede;
+            font-size: 14px;
+            color: #666666;
+            border-radius: 2px;
+            display: block;
+            height: 37px;
+            line-height: 37px;
+            text-align: center;
+            overflow: hidden;
+        }
+    }
+    .cbox {
+        min-height: 22px;
+        height: auto;
+        position: relative;
+        line-height: 22px;
+        margin: 17px 0 5px;
+        input {
+            width: 12px;
+            height: 12px;
+            opacity: 0;
+            filter: alpha(opacity=0);
+        }
+        i,input {
+            position: absolute;
+            top: 6px;
+            left: 0;
+        }
+        .check {
+            background: url(https://safestatic.games.wanmei.com/passport/reg/images/rchecked.png) no-repeat center;
+        }
+        i {
+            border: 1px solid #5a5a5a;
+            border-color: #eeeeee;
+            width: 10px;
+            height: 10px;
+            cursor: pointer;
+        }
+        span {
+            color: #999;
+            padding-left: 20px;
+            font-size: 12px;
+        }
+    }
+    a {
+        color: #ff5a59;
+    }
+    .rbtn_s2 {
+        border: 2px solid #dbdbdb;
+        font-size: 16px;
+        color: #666666;
+    }
+    .rbtn_com {
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .mb34 {
+        margin-bottom: 34px;
+    }
+    .rbtn_s1 {
+        display: block;
+        font-size: 16px;
+        background: #ed1919;
+        border: 2px solid #dbdbdb;
+        border-radius: 4px;
+        color: #fff;
+        width:396px;
+        cursor: pointer;
+    }
+    .mb15 {
+        margin-bottom: 15px;
+    }
+}
+
+input {
+    background: #fff;
+    border: 0 none;
+}
+
+
+
+
+.clearfix:after {
+    content:"";display:block;height:0;clear:both;
+}
+.clearfix {
+    zoom:1;
+}.paybot_wrap{ 
+    padding-top:20px;
+    font:normal 12px "微软雅黑"; 
+    color:#8f8f8f;
+}
+.paybot_wrap a{
+    font:normal 12px "微软雅黑"; 
+    color:#8f8f8f; 
+    text-decoration:none;
+}
+.paybot_wrap_link{
+    height:28px; 
+    border-top:1px solid #e6e6e6; 
+    border-bottom:1px solid #e6e6e6;
+}
+.paybot_wrap_link 
+div{
+     width:1002px; 
+     height:28px; 
+     margin:0 auto; 
+     line-height:28px; 
+     text-align:center;
+    }
+.paybot_wrap_link div a{
+    margin:0 15px;
+}
+.paybot_wrap_p{ 
+    width:1002px; 
+    margin:10px auto 0; 
+    line-height:20px; 
+    text-align:center;
+}
+.paybot_wrap_img{ 
+    padding:10px 0 20px; 
+    text-align:center;
+}
+.paybot_wrap_img img{ 
+    margin:0 10px;
+}

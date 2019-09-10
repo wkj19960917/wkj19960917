@@ -1,0 +1,30 @@
+html body {
+    background-color: #f5f5f5;
+    color: #474747;
+    min-width: 1300px;
+}
+
+@import "header-top";
+
+@import "aside";
+
+@import 'topnav';
+
+.nav_bar {
+    height: 44px;
+    line-height: 44px;
+    background-color: #f5f5f5;
+    color: #666;
+    a {
+        padding-right: 3px;
+    }
+    a:hover{
+        color:#e90404;
+    }
+}
+
+@import "cartmain";
+
+@import 'footer';
+
+@import 'copyright';

@@ -1,0 +1,63 @@
+.header_slide {
+    position: relative;
+    height: 439px;
+    background-color: #565656;
+    li{
+        height: 439px;
+        a{
+            display: block;
+            width: 1190px;
+            height: 439px;
+            margin: 0 auto;
+        }
+    }
+    .prev,.next{
+        width: 47px;
+        height: 80px;
+        margin-top: -40px;
+        position: absolute;
+        top: 50%;
+        border-radius: 3px;
+        }
+    span{
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: url(http://static.wanmei.com/shop/images/base.png);
+    }
+    .prev{
+        margin-left: -595px;
+        left: 50%;
+        span{
+            background-position: 0 -20px;
+        }
+    }
+    .next{
+        margin-right: -595px;
+        right: 50%;
+        span{
+            background-position: -47px -20px;
+        }
+    }
+}
+
+.hd {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    a{
+        display: inline-block;
+        width: 11px;
+        height: 11px;
+        border-radius: 6px;
+        margin: 0 5px;
+        overflow: hidden;
+        background-color: #eff0f2;
+    }
+    .on{
+        background-color: #e22430;
+    }
+}

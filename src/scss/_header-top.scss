@@ -1,0 +1,87 @@
+header{
+    height: 33px;
+    background-color: #474747;
+    color: #ccc;
+}
+.wrapper{
+    width:1190px;
+    margin: 0 auto;
+    .welcome{
+        margin-top: 7px;
+    }
+    .header-gwc{
+        width: 138px;
+        position: relative;
+        z-index: 2;
+        a{
+            height: 33px;
+            line-height: 33px;
+            background-color: #1e1e1e;
+            text-align: center;
+            display: block;
+            .icon{
+                display: inline-block;
+                margin-right: 8px;
+                width: 20px;
+                height: 14px;
+                overflow: hidden;
+                background: url(http://static.wanmei.com/shop/images/base.png) no-repeat -164px -20px;
+                vertical-align: -2px;
+            }
+            span{
+                color: #db313e;
+                font-weight: bold;
+                font-family: Arial;
+            }
+        }
+        .car_list{
+            position: absolute;
+            top: 33px;
+            right: 0;
+            width: 350px;
+            background-color: #fafafa;
+            z-index: 1;
+            height:0;
+            overflow: hidden;
+            box-shadow: 0 2px 3px #CCC;
+            p{
+                padding: 49px 0 37px 0;
+                text-align: center;
+                font-size: 14px;
+                color: #666;
+            }
+        }
+        
+    }
+    .order_list,.userlogin{
+        margin: 11px 35px 0 0;
+        em,strong{
+            display: block;
+            line-height: 11px;
+            float: left;
+            padding: 0 7px;
+            height: 11px;
+        }
+        strong{
+            border-left: 1px solid #666;
+        }
+        a{
+            display: inline-block;
+            color: #CCC;
+        }
+    }
+    
+}
+.userlogin a:hover,.order_list a:hover{
+    color:#ffffff
+} 
+.header-gwc a:hover{
+    background-color: #e32332;
+    color: #ffffff;
+}
+.header-gwc a:hover span{
+    color:#ffffff
+}
+.header-gwc a:hover .icon{
+    background-position: -164px -38px;
+}

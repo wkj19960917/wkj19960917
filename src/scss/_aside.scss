@@ -1,0 +1,106 @@
+aside{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 35px;
+    background-color: #0a0a0a;
+    text-align: center;
+    z-index: 2;
+    dl{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        margin-top: -140px;
+    }
+    dd{
+        position: relative;
+        padding-bottom: 6px;
+    }
+    span{
+        display: inline-block;
+    }
+    a{
+        display: block;
+        color: #FFF;
+        transition: all .3s;
+    }
+    .mycenter,.mylike,.go_top,.online_service{
+        a{
+            height: 35px;
+            width: 35px;
+        }
+    }
+    .mycenter span{
+        width: 18px;
+        height: 18px;
+        margin-top: 8px;
+        background: url(http://static.wanmei.com/shop/images/base.png) no-repeat -228px -74px;
+    }
+    .mylike span{
+        width: 19px;
+        height: 15px;
+        margin-top: 11px;
+        background: url(http://static.wanmei.com/shop/images/base.png) no-repeat -228px -42px;
+    }
+    .aside_gwc span{
+        width: 22px;
+        margin: 0 auto;
+        padding: 13px 2px;
+        font-size: 13px;
+        border-top: 1px solid #323232;
+        border-bottom: 1px solid #323232;
+        i{
+            display: inline-block;
+            width: 22px;
+            height: 18px;
+            margin-bottom: 7px;
+            background: url(http://static.wanmei.com/shop/images/base.png) no-repeat -184px -56px;
+        }
+        font{
+            display: inline-block;
+            width: 21px;
+            height: 21px;
+            margin-top: 8px;
+            line-height: 21px;
+            font-size: 11px;
+            text-align: center;
+            background-color: #df2f3a;
+            border-radius: 11px;
+        }
+    }
+    .online_service span{
+        width: 18px;
+        height: 16px;
+        margin-top: 10px;
+        background: url(http://static.wanmei.com/shop/images/base.png) no-repeat -228px -57px;
+    }
+    .go_top{
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+        width: 35px;
+        height: 35px;
+        span{
+            width: 24px;
+            height: 22px;
+            margin-top: 6px;
+            background: url(http://static.wanmei.com/shop/images/base.png) no-repeat -228px -20px;
+        }
+    }
+}
+
+aside a:hover{
+    background-color: #e32330;
+}
+.aside_gwc a:hover span{
+    border-bottom:1px solid #e32330;
+    border-top:1px solid #e32330;
+}
+.aside_gwc a:hover font{
+    background-color: #000000;
+}
+.aside_gwc a:hover i{
+    background-position: -184px -38px;
+}

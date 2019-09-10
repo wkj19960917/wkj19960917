@@ -1,0 +1,244 @@
+.cart_null {
+    height: 300px;
+    line-height: 300px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    background-color: #FFF;
+    color: #666;
+    text-align: center;
+    span {
+        display: inline-block;
+        width: 80px;
+        height: 60px;
+        margin-right: 14px;
+        background: url(http://static.wanmei.com/shop/images/base.png) no-repeat -78px -132px;
+        vertical-align: -11px;
+    }
+    a {
+        padding: 0 5px;
+        color: #e90404;
+    }
+}
+
+.cart_list {
+    margin-bottom: 43px;
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    thead{
+        .state {
+            width: 111px;
+            span {
+                margin-right: 10px;
+            }
+            label {
+                cursor: pointer;
+            }
+        }
+        td {
+            height: 54px;
+            font-size: 14px;
+            color: #666;
+        }
+        .num {
+            width: 200px;
+        }
+        .prices {
+            width: 150px;
+        }
+        .operation {
+            width: 150px;
+        }
+    }
+    td {
+        background-color: #FFF;
+        border-bottom: 1px solid #ededed;
+        text-align: center;
+        img {
+            width: 72px;
+            height: 72px;
+            border: 1px solid #ddd;
+        }
+        .stock {
+            padding-top: 8px;
+            color: #999;
+        }
+        .del{
+            display: inline-block;
+            width: 22px;
+            height: 20px;
+            padding-top: 2px;
+            border-radius: 11px;
+            span {
+                display: inline-block;
+                width: 8px;
+                height: 8px;
+                overflow: hidden;
+                background: url(http://static.wanmei.com/shop/images/base.png) no-repeat -292px 0;
+            }
+        } 
+    }
+    dl {
+        margin: 29px 0;
+    }
+    dd {
+        text-align: left;
+        margin-left: 18px;
+        p {
+            color: #999;
+            height: 18px;
+            display: inline-block;
+            overflow: hidden;
+            max-width: 400px;
+        }
+        h1 {
+            width: 486px;
+            display: block;
+            font-size: 14px;
+            color: #424242;
+            a.name {
+                max-width: 400px;
+                height: 20px;
+                overflow: hidden;
+                float: left;
+                margin-right: 5px;
+            }
+            a {
+                color: #424242;
+            }
+        }
+    }
+    .amount {
+        margin-right: 0;
+    }
+    td.price {
+        font-size: 20px;
+        color: #e90404;
+    }
+    a:hover, a.on {
+        text-decoration: none;
+        color: #e90404;
+    }
+}
+
+span.checkbox {
+    position: relative;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 16px;
+        height: 16px;
+        border: 1px solid #d4d4d4;
+        background-color: #FFF;
+        cursor: pointer;
+    }
+    label.curr {
+        background: #e32332 url(http://static.wanmei.com/shop/images/base.png) no-repeat -78px -100px;
+        border-color: #e32332;
+    }
+}
+.ellipsis2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+}
+.amount {
+    display: inline-block;
+    width: 78px;
+    height: 22px;
+    margin-right: 11px;
+    border: 1px solid #e0e0e0;
+    vertical-align: middle;
+    .reduce {
+        background: url(http://static.wanmei.com/shop/images/base.png) no-repeat -234px -97px;
+    }
+    span {
+        display: inline-block;
+        width: 23px;
+        height: 22px;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+    input {
+        width: 32px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        border: 0;
+        vertical-align: middle;
+        font-size: 12px;
+    }
+    .plus {
+        background: url(http://static.wanmei.com/shop/images/base.png) no-repeat -233px -132px;
+    }
+}
+.total_bar {
+    margin-top: 5px;
+    height: 90px;
+    line-height: 90px;
+    padding: 0 32px 0 28px;
+    background-color: #FFF;
+    font-size: 14px;
+    color: #666;
+    .left{
+        span {
+            margin-right: 10px;
+        }
+        a {
+            margin-left: 22px;
+        }
+    }
+    .right {
+        position: relative;
+        .btn {
+            width: 188px;
+            height: 50px;
+            margin-left: 20px;
+            font-size: 18px;
+            border: 0;
+            cursor: pointer;
+            color: #FFF;
+            background-color: #e32332;
+        }
+        .tip {
+            position: absolute;
+            bottom: 79px;
+            right: 0;
+            height: 43px;
+            line-height: 43px;
+            padding: 0 23px;
+            background-color: #FFF;
+            border: 1px solid #e32332;
+            color: #e90404;
+        }
+        #num {
+            font-size: 24px;
+        }
+        span {
+            margin: 0 7px;
+            color: #e90404;
+        }
+    }
+}
+
+
+.amount span:hover{
+    background-color:#f0f0f0; 
+}
+.cart_list td .del:hover {
+    background-color: #e32332;
+}
+.cart_list td .del:hover span {
+    background-position: -292px -20px;
+}
+.total_bar .right .btn:hover {
+    background-color: #C00;
+}

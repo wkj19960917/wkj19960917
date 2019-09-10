@@ -1,0 +1,28 @@
+.buying {
+    padding-bottom: 40px;
+    background-color: #FFF;
+    .wrapper{
+        position: relative;
+        padding-top: 146px;
+    }
+    .ad_list {
+        position: absolute;
+        top: -14px;
+        left: 0;
+        a{
+            float: left;
+            margin-left: 16px;
+            width: 386px;
+            height: 160px;
+            transition: all .3s linear;
+        }
+    }
+    
+}
+.buying .ad_list a:first-child{
+    margin-left: 0px;
+}
+.ad_list a:hover{
+    transform: translate(0,-2px);
+    box-shadow: 0 3px 3px #CCC;
+}

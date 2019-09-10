@@ -1,0 +1,33 @@
+.promise-box {
+    width: 100%;
+    padding: 40px 0;
+    margin-top: 60px;
+    background: #1f1f20;
+    border-bottom: 1px solid #333;
+    ul {
+        width: 1260px;
+        margin: 0 auto;
+        overflow: hidden;
+        li.icon-zan {
+            background-image: url(http://static.dota2.com.cn/shop/images/secretshop/icon-zan.png);
+        }
+        li.icon-car {
+            text-indent: 70px;
+            background-image: url(http://static.dota2.com.cn/shop/images/secretshop/icon-car.png);
+        }
+        li.icon-change {
+            background-image: url(http://static.dota2.com.cn/shop/images/secretshop/icon-change.png);
+        }
+        li {
+            float: left;
+            margin: 0 60px 0 186px;
+            height: 40px;
+            line-height: 40px;
+            background-position: left bottom;
+            background-repeat: no-repeat;
+            text-indent: 60px;
+            font-size: 18px;
+            color: #999;
+        }
+    }
+}

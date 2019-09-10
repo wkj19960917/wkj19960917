@@ -1,0 +1,29 @@
+.copyright {
+    padding: 25px 0 30px 0;
+    text-align: center;
+    ul{
+        width: 420px;
+        margin: 0 auto;
+        zoom: 1;
+        overflow: hidden;
+        li{
+            float: left;
+            width: 70px;
+            text-align: center;
+            height: 12px;
+            line-height: 12px;
+            border-right: 1px solid #DDD;
+            text-align: center;
+            margin-right: -1px;
+        }
+    }
+    .text{
+        padding: 24px 0 15px 0;
+        color: #999;
+    }
+    .link{
+        a{
+            margin: 0 3px;
+        }
+    }
+}

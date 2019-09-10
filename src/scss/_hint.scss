@@ -1,0 +1,66 @@
+.prompt_box {
+    position: relative;
+    width: 500px;
+    min-height: 300px;
+    background-color: #FFF;
+    box-shadow: 0 3px 3px #CCC;
+    font-size: 16px;
+    .title {
+        position: relative;
+        height: 44px;
+        line-height: 44px;
+        padding-left: 16px;
+        border-bottom: 1px solid #e1e1e1;
+        background-image: -webkit-linear-gradient(top,#fff,#f7f7f7);
+    }
+    .close {
+        position: absolute;
+        top: 18px;
+        right: 15px;
+        width: 10px;
+        height: 10px;
+        background: url(http://static.dota2.com.cn/shop/images/base.png) no-repeat -290px -56px;
+        cursor: pointer;
+    }
+    .prompt_content {
+        padding: 35px 20px 20px 20px;
+        .tip {
+            padding: 44px 0 54px 0;
+            text-align: center;
+            font-size: 18px;
+            color: #666;
+            span {
+                display: inline-block;
+                width: 60px;
+                height: 60px;
+                margin-right: 15px;
+                background: url(http://static.dota2.com.cn/shop/images/prompt.png) no-repeat 0 0;
+                vertical-align: middle;
+            }
+        }
+    }
+    .btn {
+        text-align: center;
+        padding-bottom: 35px;
+        .continue {
+            background-color: #e32332;
+        }
+        a {
+            display: inline-block;
+            margin: 0 8px;
+            width: 160px;
+            height: 45px;
+            line-height: 45px;
+            text-align: center;
+            color: #FFF;
+        }
+        .other {
+            width: 158px;
+            height: 43px;
+            line-height: 43px;
+            background-color: #FFF;
+            border: 1px solid #e32330;
+            color: #e80306;
+        }
+    }
+}

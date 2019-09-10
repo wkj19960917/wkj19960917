@@ -1,0 +1,72 @@
+.wrap_dota2-float-nav {
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    width: 50px;
+    margin-top: -170px;
+    overflow: hidden;
+    z-index: 999;
+    a.float-nav-people {
+        background-image: url(http://static.dota2.com.cn/shop/images/secretshop/icon-people.png);
+    }
+    a.float-nav-btn {
+        height: 50px;
+        background-color: #1f1f20;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    a {
+        float: left;
+        width: 50px;
+    }
+    a.float-nav-heart {
+        background-image: url(http://static.dota2.com.cn/shop/images/secretshop/icon-heart.png);
+    }
+    a.float-nav-shop-btn {
+        padding: 45px 0 20px;
+        background: #f85535 url(http://static.dota2.com.cn/shop/images/secretshop/icon-shop.png) no-repeat center 20px;
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+        span {
+            margin: 10px auto 0;
+            display: block;
+            font-size: 14px;
+            color: #f85535;
+            background-color: #fff;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 25px;
+        }
+    }
+    a.float-nav-talk {
+        background-image: url(http://static.dota2.com.cn/shop/images/secretshop/icon-talk.png);
+    }
+}
+.float-nav-back-btn {
+    text-align: center;
+    color: #1f1f20;
+    font-size: 14px;
+    line-height: 14px;
+    padding-top: 6px;
+    background-color: #fff;
+    padding-bottom: 6px;
+}
+
+a.float-nav-people:hover {
+    background-image: url(http://static.dota2.com.cn/shop/images/secretshop/icon-people-hov.png);
+}
+a.float-nav-heart:hover {
+    background-image: url(http://static.dota2.com.cn/shop/images/secretshop/icon-heart-hov.png);
+}
+.wrap_dota2-float-nav a.float-nav-shop-btn:hover {
+    background-color: #ff7357;
+}
+a.float-nav-talk:hover {
+    background-image: url(http://static.dota2.com.cn/shop/images/secretshop/icon-talk-hov.png);
+}
+a:hover{
+    color: #e90404;
+}

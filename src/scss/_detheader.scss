@@ -1,0 +1,152 @@
+.nav_bar{
+    height: 130px;
+}
+.wrap_dota2-top-col {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #1f1f20;
+    min-width: 1260px;
+    .wrap_dota2-top {
+        width: 100%;
+        height: 90px;
+        position: relative;
+        border-bottom: 1px solid #333;
+        .mycart-list {
+            display: block;
+            width: 350px;
+            min-height: 100px;
+            top: 91px;
+            right: 50%;
+            margin-right: -630px;
+            position: absolute;
+            background: #282829;
+            z-index: 100;
+            display: none;
+            .default {
+                text-align: center;
+                line-height: 100px;
+                color: #999;
+            }
+        }
+    }
+
+    .wrap_dota2-top-nav {
+        width: 1260px;
+        height: 38px;
+        margin: 0 auto;
+        line-height: 38px;
+        overflow: hidden;
+        a {
+            float: left;
+            margin-right: 40px;
+            padding: 0 10px;
+            height: 38px;
+            text-align: center;
+            color: #999;
+            font-size: 16px;
+            position: relative;
+        }
+        .wrap_dota2-top-search a {
+            margin: 0;
+            width: 38px;
+            height: 38px;
+            background: #333 url(http://static.dota2.com.cn/shop/images/secretshop/icon-search.png) no-repeat center 8px;
+            padding: 0;
+        }
+    }
+}
+.wrap_dota2-logo-dota2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 226px;
+    height: 32px;
+    margin-top: -16px;
+    margin-left: -630px;
+}
+.wrap_dota2-logo-shop {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 132px;
+    height: 64px;
+    margin-left: -380px;
+    margin-top: -32px;
+}
+.wrap_dota2-user-info {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    margin-top: -15px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: -630px;
+    a.user-info-btn {
+        margin: 0 5px;
+        width: 78px;
+        border-radius: 5px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .myorder {
+        background: url(http://static.dota2.com.cn/shop/images/secretshop/icon-people2.png) 0 50% no-repeat;
+        padding-left: 25px;
+    }
+    .myfavorite {
+        background: url(http://static.dota2.com.cn/shop/images/secretshop/icon-heart.png) 0 50% no-repeat;
+        padding-left: 25px;
+    }
+    .mycart {
+        background: url(http://static.dota2.com.cn/shop/images/secretshop/icon-cart.png) 0 50% no-repeat;
+        padding-left: 28px;
+    }
+    a {
+        float: left;
+        color: #999;
+        font-size: 14px;
+        margin: 0 16px;
+        height: 100%;
+    }
+}
+.wrap_dota2-top-search {
+    float: right;
+    margin-left: 30px;
+    input {
+        float: left;
+        width: 156px;
+        height: 34px;
+        line-height: 34px;
+        background-color: #191919;
+        border: 0;
+        color: #666;
+        text-indent: 15px;
+    }
+}
+
+.user-info-btn:hover{
+    background-color: #f85535;
+    color:#fff;
+    
+}
+.wrap_dota2-top-nav a:hover{
+    color: #f85535;
+    // border-bottom: 2px solid #f85535;
+}
+.wrap_dota2-user-info>a:hover{
+    color: #f85535;
+}
+.myorder:hover{
+    background: url(http://static.dota2.com.cn/shop/images/secretshop/icon-people2-hov.png) 0 50% no-repeat;
+}
+.myfavorite:hover{
+    background: url(http://static.dota2.com.cn/shop/images/secretshop/icon-heart-hov2.png) 0 50% no-repeat;
+}
+.mycart:hover{
+    background: url(http://static.dota2.com.cn/shop/images/secretshop/icon-cart-hov.png) 0 50% no-repeat;
+}
+.wrap_dota2-top-search a:hover{
+    border-bottom: #f85535 2px solid
+}

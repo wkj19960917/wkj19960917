@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+        <div class="denglubox" id="denglubox">
+                <form id="form1" name="form1" method="post" action="/sso/login">
+                <input id="e" type="hidden" value="MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCjfeE0MIYsZes/HwV06/kvRw34Hmhn9WPt0feLPp1PVqdqZz1/xFvPPEAJ/lAvfqt5kyn+A06bvYXIhizTjlOzPgLE4897ihuSYXgfwcUshPZvydRLbftU6Exj5SLbv5tw4GInbgQv7RWLWOKyQA81q6lWae2Kcgd1XpDRsQNXVwIDAQAB"><input type="hidden" name="password" id="password" value=""> 
+                    <input name="continue" type="hidden" value=""> <input name="service" type="hidden" value="dota2_shop"> <input name="location" type="hidden" value="687474703a2f2f73656372657473686f702e646f7461322e636f6d2e636e2f"> <input type="hidden" name="needRand" value="" id="needRand"> <input name="isiframe" type="hidden" value="1"> <input name="logintype" id="logintype" type="hidden" value="">
+                <div class="swipecode">
+                    <h6>扫码登录  安全快速</h6>
+                    <div class="ewmbox">
+                        <img id="qrcodeimg" src="/sso/qrcode?1567494045837" alt="">
+                        <div class="markfresh hide" style="display: block;">
+                            <span class="mark"></span>
+                            <span class="wzbx">二维码超时<br>请点击刷新</span>
+                        </div>
+                        <div class="ewmts" style="display: none;">
+                            <img src="https://safestatic.games.wanmei.com/sso/basic/images/ewm_hover.png" alt="">
+                        </div>
+                    </div>
+                    <p>使用完美手机令牌扫描二维码</p>
+                    <p><a href="http://lingpai.wanmei.com/" target="_blank">还没安装？点我</a></p>
+                    <div class="nline"></div>
+                </div>
+                <div class="userlog">
+                    <!-- 正常登陆 -->
+                    <div id="login" class="login_wrap  ">
+                    <h6>账号登录</h6>
+                    <div class="logbox" id="logbox">
+                        <div class="logboxwrong login_ts" style="display: none;"></div>
+                        <p><input id="username" name="username" size="15" tabindex="1" maxlength="50" type="text" placeholder="账号" value="" class="username">
+                            <span class="clearusername"></span>
+                        </p>
+                        <p><input id="passwd" name="pass" size="15" tabindex="2" maxlength="16" type="password" placeholder="密码 / 神盾密码" value="" class="password">
+                        </p>
+                        <div class="rand_node" style="display: none">
+                            <div id="mCaptcha" style="width: 250px"></div>
+                            <input id="randimg" name="randimg" type="hidden">
+                            <input id="isAICap" name="isAICap" type="hidden">
+                        </div>
+                        <p>
+                        </p><p><input type="button" value="登录" class="dl1" id="normaldl" onclick="login(event);">
+                            <input type="button" value="神盾登录" class="dl2" onclick="keylogin();">
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                <div class="otherpart">
+                    <a href="http://accountinterface.wanmei.com/?game=passport&amp;from=laohu&amp;continue=&amp;service=dota2_shop&amp;location=687474703a2f2f73656372657473686f702e646f7461322e636f6d2e636e2f" target="_top">老虎账号登录</a>
+                    |<a href="//passport.wanmei.com/reg/" target="_blank">注册新账号</a>
+                    |<a href="//passport.wanmei.com/password/" target="_blank" title="">忘记密码</a>
+                </div>
+                </form>
+            </div>
+</body>
+</html>
